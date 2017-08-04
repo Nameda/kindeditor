@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!--<link rel="stylesheet" href="themes/default/default.css" />-->
+		<link rel="stylesheet" href="themes/simple/simple.css">
+		<script charset="utf-8" src="kindeditor-min.js"></script>
+		<script charset="utf-8" src="lang/zh-CN.js"></script>
+		<script>
+		      var editor;
+		        KindEditor.ready(function(K) {
+		                editor = K.create('#editor_id', {
+		                        themeType : 'simple'
+		                });
+		        });
+		</script>
+	</head>
+	<body>
+		<div>
+			<textarea id="editor_id" name="content" style="width:700px;height:300px;">
+				内容
+			</textarea>
+		</div>
+	</body>
+</html>
